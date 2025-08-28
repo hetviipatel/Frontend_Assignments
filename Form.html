@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Profile Form</title>
+    </head>
+    <body>
+        <h1>Profile Form Information</h1>
+        <form>
+            <fieldset>
+                <legend>Basic information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <br><br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" minlength="6" required>
+                <br><br>
+                <label for="age">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]" required>
+                <br><br>
+                <label for="website">website</label>
+                <input type="url" id="website" name="website">
+                <br><br>
+                <label for="profile-picture">Upload Profile Picture</label>
+                <input type ="file" id="profile-picture" name="profile-picture">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Selection Inputs</legend>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" id="Gender" name="Gender" value="male"> Male
+                <input type="radio" id="Gender" name="Gender" value="female" checked> Female 
+                <br><br>
+                <label for="Skills">Skills</label><br>
+                <input type="checkbox" id="Skills" name="Skills" value="HTML"> HTML <br>
+                <input type="checkbox" id="Skills" name="Skills" value="CSS"> CSS <br>
+                <input type="checkbox" id="Skills" name="Skills" value="JavaScript"> JavaScript <br>
+                <input type="checkbox" id="Skills" name="Skills" value="React"> React <br>
+                <input type="checkbox" id="Skills" name="Skills" value="React"> Angulur 
+                <br><br>
+                <label for = "Preferred Location">Preferred Location</label><br>
+                <select id="Preferred Location" name="Preferred Location">
+                    <option value="Navsari">Navsari</option>
+                    <option value="Vadodra">Vadodra</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Udaipur">Udaipur</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Advanced Inputs</legend>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                <label for = "week">Select a Week</label>
+                <input type="week" id="week" name="week" required>
+                <br><br>
+                <label for="month">Select a month</label>
+                <input type="month" id="month" name="month" required>
+                <br><br>
+                <label for="time">Select a Time</label>
+                <input type="time" id="time" name="time" required>
+                <br><br>
+                <label for="local-datetime">Select local Date & Time(datetime-local)</label>
+                <input type="datetime-local" id="local-datetime" name="local-datetime" required>
+                <br><br>
+                <label for="color">Pick your Favorite Color</label>
+                <input type="color" id="color" name="color" required>
+                <br><br>
+                <label for="Age">Age</label>
+                <input type="number" id="Age" name="Age" min="18" max="65" required>
+                <br><br>
+                <label for="Experience">Range of Experience</label>
+                <input type="range" id="Experience" name="Experience" min="0" max="20" required>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Text Inputs</legend>
+                <label for="about">About Yourself</label><br>
+                <textarea id="about" name="about" rows="4"></textarea><br><br>
+                <label for="Address">Address</label><br>
+                <textarea id="Address" name="Address"></textarea><br><br>    
+            </fieldset>
+            <fieldset>
+                <legend> hidden Field</legend>
+                <label for="form-version">Form version</label>
+                <input type="hidden" id="employee-id" name="employee-id" value="v2">
+            </fieldset>
+            <fieldset>
+               <legend>Other Controls</legend>
+               <label for="reset">Reset Button</label>
+               <input type="reset" id="reset" name="reset" value="Reset">
+               <br> <br>
+               <label for="submit">Submit Button</label>
+               <input type="submit" id="submit" name="submit" value="Submit">
+            </fieldset>
+
+
+        </form>
+    </body>
+</html>
