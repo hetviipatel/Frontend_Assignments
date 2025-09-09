@@ -1,0 +1,44 @@
+body {
+    border: 1px solid black;
+    background-image: url(images/image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+h3 {
+    color: yellowgreen;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline overline;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+h1:hover{
+  letter-spacing: 10px;
+  text-decoration: none;
+}
+
+h2 {
+    color: green;
+    border: 2px dotted rgb(8, 129, 203);
+    outline: 2px solid;
+    border-radius: 50px;
+    text-align: center;
+    width: 180px;
+    outline-offset: 5px;
+    margin-left: 5px;
+}
+
+h2:hover {
+    color: red;
+}
+.firstdiv:hover{
+    background-color: black;
+    color: white;
+}
