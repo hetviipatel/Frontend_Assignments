@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Audio and Video Tags</title>
+    </head>
+    <body>
+        <p>Audio which starts playing when the page loads and continous after it ends</p>
+        <audio autoplay controls>
+            <source src="audio/sample.mp3" type="audio/mpeg">
+        </audio>
+        <hr>0
+        <p>Video which starts playing when the page loads and doesn't continoue once it's ends. It does not have play pause mute button</p>
+        <video autoplay height="200px" width="120px">
+            <source src="Video\Sample_video.mp4" type="video/mp4">
+        </video>
+        <hr>
+        <p>Any youtube video as an external context loaded in our html page</p>
+        <video autoplay controls  height="300px" width="500px">
+            <source src="https://youtu.be/54d0WQnFWeI?si=aqPQNBBgJGDf3qAg" type="video/mp4">
+        </video>
+        <hr>
+        <p> Any external visual context loaded in our html page</p>
+        <iframe src="https://www.inderscience.com/mobile/journal/sample.php?jcode=ijwi" height="300px" width="500px"></iframe>
+    </body>
+</html>
