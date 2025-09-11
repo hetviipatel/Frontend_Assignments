@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="FormWithCss.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Complete Profile Form</h1>
+    </div>
+    <div class="formdiv">
+        <form action="">
+
+            <fieldset>
+                <legend>
+                    <h3>Basic Informations</h3>
+                </legend>
+
+
+                <div class="label1">
+                    <label for="">Full Name:</label>
+                </div>
+                <div class="input1">
+                    <input type="text" placeholder="Enter Your Full Name">
+                </div>
+
+                <div class="label2">
+                    <label for="">Email Address:</label>
+                </div>
+                <div class="input2">
+                    <input type="text" placeholder="Example@mail.com">
+                </div>
+
+                <div class="label3">
+                    <label for="">Password:</label>
+                </div>
+                <div class="input3">
+                    <input type="password">
+                </div>
+
+                <div class="label4">
+                    <label for="">Confirm Password:</label>
+                </div>
+                <div class="input4">
+                    <input type="password">
+                </div>
+
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h3>Contact Information</h3>
+                </legend>
+
+                <div class="label1">
+                    <label for="">Phone Number:</label>
+                </div>
+                <div class="input1">
+                    <input type="tel" placeholder="1234567890">
+                </div>
+
+                <div class="label2">
+                    <label for="">portfolio URL:</label>
+                </div>
+                <div class="input2">
+                    <input type="url" placeholder="https://example.com">
+                </div>
+
+                <div class="label3">
+                    <label for="">Upload Resume:</label>
+                </div>
+                <div class="input3">
+                    <input type="file">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h3>Selection</h3>
+                </legend>
+                <div class="label5">
+                    <label for="">Gender:</label>
+                </div>
+                <div class="input5">
+                    <input type="radio" name="male"><label for="">male</label>
+                    <input type="radio" name="male"><label for="">female</label>
+
+                </div>
+                <div class="label6">
+                    <label for="">Skills:</label>
+                </div>
+                <br>
+                <input type="checkbox"><label for="">Html</label>
+                <input type="checkbox"><label for="">CSS</label>
+                <input type="checkbox"><label for="">Javascript</label>
+                <input type="checkbox"><label for="">React</label>
+                <input type="checkbox"><label for="">Angular</label>
+
+                <div class="label6">
+                    <label for="">Preffred Location:</label>
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">--Select city--</option>
+                            <option value="">Bharuch</option>
+                            <option value="">Vadodara</option>
+                            <option value="">Ahmedabad</option>
+                            <option value="">Surat</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Advance Inputs</h3>
+                </legend>
+                <div class="label1"><label for="">Date Of Birth :</label></div>
+                <div class="input1"><input type="date" name="" id=""></div>
+
+                <br><br>
+                <div class="label1"> <label for="">Select a week :</label></div>
+                <div class="input1"><input type="week" name="" id=""></div>
+
+                <br><br>
+                <div class="label1"> <label for="">Select a Month :</label></div>
+                <div class="input1"><input type="month" name="" id=""></div>
+                <br><br>
+                <div class="label1"><label for="">Choose A Time :</label></div>
+                <div class="input1"><input type="time" name="" id=""></div>
+                <br><br>
+                <div class="label1"> <label for="">Choose A Local Date & Time :</label></div>
+                <div class="input1"><input type="datetime-local" name="" id=""></div>
+                <br><br>
+                <div class="label1"><label for="">Pick Your Favourite Color :</label></div>
+                <div class="input1"> <input type="color" name="" id=""></div>
+                <br><br>
+                <div class="label1"><label for="">Age :</label></div>
+                <div class="input1"><input type="number" name="" id="" min="1" max="10"></div>
+                <br><br>
+                <div class="label1"> <label for="">Experience(0-20):</label></div>
+                <div class="input1"><input type="range" name="" id="" min="0" max="20"></div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>Text Inputs</h3>
+                </legend>
+
+
+                <div class="label7">About Yourself :</label></div>
+                <div class="txtarea"><textarea name="" id="" rows="4"></textarea></div>
+
+                <br>
+                <div class="label7"><label for="">Address:</label></div>
+                <div class="txtarea2"><textarea name="" id=""></textarea></div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h3>Form Controls</h3>
+                </legend>
+                <button type="reset" class="button1">Create Profile</button>
+                <button type="submit" class="button2">Clear Form</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
