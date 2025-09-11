@@ -1,0 +1,76 @@
+.boxes {
+    height: 250px;
+  }
+
+  .box1 {
+    background-color: rgb(235, 125, 162);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    transform: skewX(40deg);
+  }
+
+  .box2 {
+    background-color: rgb(159, 144, 188);
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: rotate(90deg);
+  }
+
+  .box3 {
+    background-color: rgb(154, 142, 12);
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    left: 75%;
+    top: 85%;
+  }
+
+  .box4 {
+    background-color: rgb(230, 149, 91);
+    width: 60px;
+    height: 180px;
+    position: absolute;
+    font-size: 14px;
+  }
+
+  .box4:hover {
+    animation-name: boxAnim;
+    animation-duration: 5s;
+  }
+
+  @keyframes boxAnim {
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+
+    25% {
+      top: 25px;
+      left: 25px;
+    }
+
+    75% {
+      top: 75px;
+      left: 75px;
+    }
+    100%{
+      top:100px;
+      left: 100px;
+    }
+  }
+
+  .box5 {
+    background-color:rgb(44, 44, 113);
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    left: 15%;
+    top: 50%;
+    color: white;
+
+  }
