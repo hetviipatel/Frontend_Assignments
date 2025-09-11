@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="header">
+                <h1>Registration</h1>
+            </div>
+
+            <h3>Personal Details</h3>
+
+            <div class="input-fields-a1">
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your name">
+                </div>
+
+                <div class="input-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" placeholder="Enter birth date">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="input-fields-a1">
+                <div class="input-group">
+                    <label for="phone">Mobile number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter mobile number">
+                </div>
+
+                <div class="input-group">
+                    <label for="gender">Gender</label>
+                    <div class="gender-group" id="gender">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" name="occupation" id="occupation" placeholder="Enter occupation">
+                </div>
+            </div>
+
+            <h3>Identity Details</h3>
+
+            <div class="input-fields-a2">
+                <div class="input-group">
+                    <label for="idtype">ID Type</label>
+                    <input type="text" name="idtype" id="idtype" placeholder="Enter ID type">
+                </div>
+
+                <div class="input-group">
+                    <label for="idnumber">ID Number</label>
+                    <input type="text" name="idnumber" id="idnumber" placeholder="Enter ID number">
+                </div>
+
+                <div class="input-group">
+                    <label for="issueauthority">Issue Authority</label>
+                    <input type="text" name="issueauthority" id="issueauthority" placeholder="Enter issue department">
+                </div>
+
+                <div class="input-group">
+                    <label for="issuedate">Issue Date</label>
+                    <input type="date" name="issuedate" id="issuedate" placeholder="Enter ID issue date">
+                </div>
+
+                <div class="input-group">
+                    <label for="issuestate">Issue State</label>
+                    <input type="text" name="issuestate" id="issuestate" placeholder="Enter ID issue state">
+                </div>
+
+                <div class="input-group">
+                    <label for="expdate">Expiry Date</label>
+                    <input type="date" name="expdate" id="expdate" placeholder="Enter ID expiry date">
+                </div>
+            </div>
+
+            <div class="actions">
+                <input type="submit" value="Next →">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
