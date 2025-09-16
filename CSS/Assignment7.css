@@ -1,0 +1,49 @@
+body {
+    border: 2px solid black;
+    background-image: url(Images/image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: scroll; */
+    /* background-attachment: fixed; */
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(224, 209, 209);
+    font-size: bold;
+    text-decoration:rgb(156, 74, 80) overline underline;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+h1:hover {
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(48, 38, 121);
+    border: 2px dotted rgb(222, 19, 19);
+    outline: 2px solid;
+    border-radius: 50px;
+    outline-offset: 2px;
+    text-align: center;
+    width: 190px;
+    margin-left: 5px;
+}
+
+h2:hover {
+    color: rgb(65, 46, 46);
+}
+
+h3 {
+    color: rgb(235, 225, 94);
+}
+
+.container:hover 
+{
+    background-color: black;
+    color: white;
+}
+

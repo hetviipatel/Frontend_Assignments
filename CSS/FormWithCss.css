@@ -1,0 +1,166 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(32, 29, 29);
+}
+
+body {
+    background-color: skyblue;
+}
+
+.heading {
+    height: 50px;
+    width: 700px;
+    background-color:blue;
+    margin: auto;
+    border-radius: 30px;
+    position: sticky;
+    top: 10px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+}
+
+.formdiv {
+    height: auto;
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px whitesmoke;
+}
+
+.label1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input1 input {
+    height: 28px;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.label2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.input2 input {
+    height: 28px;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.label3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.input3 input {
+    height: 28px;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.label4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.input4 input {
+    height: 28px;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+fieldset {
+    border-radius: 5px;
+    margin: 20px;
+    border: 1px solid darkgray;
+    background-color: rgba(205, 227, 234, 0.2);
+}
+
+.label5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input5 input {
+    margin-top: 20px;
+}
+
+.label6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.select select {
+    height: 28px;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.label7 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.txtarea textarea {
+    height: 90px;
+    width: 98%;
+    margin-top: 10px;
+}
+
+.txtarea2 textarea {
+    height: 60px;
+    width: 98%;
+    margin-top: 10px;
+}
+
+.button1 {
+    height: 35px;
+    width: 98%;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button2 {
+    height: 35px;
+    width: 98%;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+input:hover{
+    border: 1px solid darkblue;
+}
+.button1:hover{
+    background-color: rgb(67, 65, 65) ;
+}
+.button2:hover{
+    background-color:rgb(92, 91, 91);
+}
