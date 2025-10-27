@@ -1,4 +1,5 @@
-body {
+body
+ {
     border: 2px solid black;
     background-image: url(Images/image3.jpg);
     background-position: center;
@@ -8,7 +9,8 @@ body {
     /* background-attachment: fixed; */
 }
 
-h1 {
+h1 
+{
     font-style: italic;
     color: rgb(224, 209, 209);
     font-size: bold;
@@ -22,7 +24,8 @@ h1:hover {
     text-decoration: none;
 }
 
-h2 {
+h2 
+{
     color: rgb(48, 38, 121);
     border: 2px dotted rgb(222, 19, 19);
     outline: 2px solid;

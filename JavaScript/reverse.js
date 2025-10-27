@@ -1,0 +1,35 @@
+
+
+let maths = parseInt(prompt("Enter the marks of Maths"));
+let science = parseInt(prompt("Enter the marks of Science"));
+let english = parseInt(prompt("Enter the marks of English"));
+
+let total = maths + science + english ;
+let percentage = (total / 300) * 100 ;
+let grade ;
+if(percentage >= 80)
+    {
+    grade = 'A';
+    console.log("Grade A");
+}
+
+else if(percentage >= 60 && percentage < 70)
+    {
+    grade = 'B';
+    console.log("Grade B");
+}
+else if(percentage >= 40 && percentage < 60)
+    {
+    grade = 'C';
+    console.log("Grade C");
+   }
+else
+    {
+    grade = 'D';
+    console.log("Grade D");
+   }
+console.log("Total marks = " + total);
+console.log("Percentage = " + percentage);
+console.log("Grade = " + grade);
+
+
